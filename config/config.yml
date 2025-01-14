@@ -1,0 +1,22 @@
+mqtt:
+  broker: "localhost"
+  port: 1883
+
+simulation:
+  machine_count: 5
+  interval: 1.0
+
+database:
+  host: "localhost"
+  port: 5432
+  name: "maintenance_db"
+  user: "your_username"
+  password: "your_password"
+
+processing:
+  batch_size: 1000
+  window_size: 24
+
+prediction:
+  model_path: "models/maintenance_model.joblib"
+  threshold: 0.7
